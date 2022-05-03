@@ -1,42 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-
-
-header{
-background-color: grey;
-height: 10vh;
+  margin: 0;
+  padding: 0;
 }
 
-.maine{
-    display: flex;
+header {
+  background-color: grey;
+  height: 10vh;
+}
+
+.maine {
+  display: flex;
   flex-wrap: wrap;
   height: 85vh;
-width: 100%;
+  width: 100%;
 }
 
-aside{
-    width: 15%;
-    height: 100%;
-    background-color: darkgrey;
-    
+aside {
+  width: 15%;
+  height: 100%;
+  background-color: darkgrey;
 }
 
-main{
-background-color: darkslategrey;
-height: 100%;
-width: 85%;
-
+main {
+  background-color: darkslategrey;
+  height: 100%;
+  width: 85%;
 }
 
-footer{
-    background-color: grey;
-    height: 5vh;
+footer {
+  background-color: grey;
+  height: 5vh;
 }
 
-body{
-    width: 100%;
+body {
+  width: 100%;
 }
-
-
