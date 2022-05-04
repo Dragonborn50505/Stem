@@ -6,6 +6,9 @@
 header {
   background-color: grey;
   height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .maine {
@@ -30,8 +33,39 @@ main {
 footer {
   background-color: grey;
   height: 5vh;
+  padding-left: 25%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 body {
   width: 100%;
+}
+
+.pic {
+  padding-top: 10%;
+  padding-bottom: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+.ButikBiblotekISP {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Jerome {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 20%;
+}
+
+.pokomon {
+  border: 0.5pc solid black;
+}
+
+.upper {
+  display: flex;
 }
